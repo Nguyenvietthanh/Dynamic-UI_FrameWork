@@ -1,0 +1,35 @@
+{
+  "resources":[
+    {
+      "alias":"person",
+      "baseUrl":"owner",
+      "pathTosource":[
+        "$._link['party_role:person'].href"
+      ]
+    }
+  ],
+  "metamodel": {
+    "title": "Login",
+    "name": "login",
+    "sections": [
+      {
+        "class": "",
+        "properties": [
+          
+          {
+            "type":"custom",
+            "selector":"app-mylogin"
+          }
+        ]
+      },
+      {
+        "id":"person_detail:ext_id_verified_date",
+        "type":"date",
+        "alias":"person",
+        "class":"exit-id-verified-date",
+        "patchOnBlur":false
+      }
+    ]
+
+  }
+}
